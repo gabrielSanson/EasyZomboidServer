@@ -1,22 +1,48 @@
 <script>
-    import { onMount, afterUpdate } from "svelte";
+    import { onMount } from 'svelte';
     let serverStatus = "Stopped";
-    let logs = "";
     let isLoading = false;
     let textarea;
-
-    async function startServer() {
-        logs = "";
-        isLoading = true;
-
+    let hasNotifiedServerStarted = false; // Flag to track notification
+    let logs = ""
+    async function fetchServerLogs() {
         try {
-            const response = await fetch("/api/docker/start", {
-                method: "POST",
+            const response = await fetch('/api/docker/start', {
+                method: 'POST'
             });
 
             const reader = response.body.getReader();
             const decoder = new TextDecoder();
             let buffer = "";
+
+            function processBuffer() {
+                const lines = buffer.split("\n");
+                for (const line of lines) {
+                    // Log the raw line data for debugging
+                    console.log("Log Line:", line);
+
+                    // Update server status based on the log entry
+                    if (line.includes("Network easyzomboidserver_default Creating")) {
+                        serverStatus = "Initializing";
+                    } else if (line.includes("Starting server install")) {
+                        serverStatus = "Updating Game Files";
+                    } else if (line.includes("Update complete, launching Steamcmd")) {
+                        serverStatus = "Zomboid Server Initializing";
+                    } else if (line.includes("SERVER STARTED")) {
+                        serverStatus = "Online";
+                        if (!hasNotifiedServerStarted) {
+                            alert("Server has started!");
+                            hasNotifiedServerStarted = true;
+                        }
+                    } else if (line.includes("QuitCommand") || line.includes("projectzomboid exited with code")) {
+                        serverStatus = "Stopped";
+                    }
+
+                    logs += line + "\n";
+                }
+                buffer = "";
+                scrollToBottom();
+            }
 
             function readStream() {
                 reader.read().then(({ done, value }) => {
@@ -31,34 +57,18 @@
                 });
             }
 
-            function processBuffer() {
-                const lines = buffer.split("\n");
-                for (const line of lines) {
-                    logs += line + "\n";
-
-                    // Update serverStatus based on the most recent relevant log entry
-                    if (line.includes("Network easyzomboidserver_default Creating")) {
-                        serverStatus = "Initializing";
-                    } else if (line.includes("Starting server install")) {
-                        serverStatus = "Updating Game Files";
-                    } else if (line.includes("Update complete, launching Steamcmd")) {
-                        serverStatus = "Zomboid Server Initializing";
-                    } else if (line.includes("SERVER STARTED")) {
-                        serverStatus = "Online";
-                    } else if (line.includes("QuitCommand") || line.includes("projectzomboid exited with code")) {
-                        serverStatus = "Stopped";
-                    }
-                }
-                buffer = "";
-                scrollToBottom();
-            }
-
             readStream();
         } catch (error) {
             console.error("Error starting server:", error);
         } finally {
             isLoading = false;
         }
+    }
+
+    async function startServer() {
+        logs = "";
+        isLoading = true;
+        await fetchServerLogs();
     }
 
     async function stopServer() {
@@ -68,10 +78,10 @@
             const response = await fetch("/api/docker/stop", {
                 method: "POST",
             });
-            if (!response.ok) {
-                throw new Error("Failed to stop server");
+            if (response.ok) {
+                serverStatus = "Stopped";
+                hasNotifiedServerStarted = false; // Reset flag when stopped
             }
-            serverStatus = "Stopped";
         } catch (error) {
             console.error("Error stopping server:", error);
         } finally {
@@ -91,13 +101,10 @@
     }
 
     onMount(() => {
-        // Optionally fetch initial status
-    });
-
-    afterUpdate(() => {
-        scrollToBottom();
+        // Optionally initialize status
     });
 </script>
+
 
 <style>
     textarea {

@@ -1,39 +1,50 @@
+// src/routes/api/docker/start/+server.ts
 import { spawn } from 'child_process';
 import type { RequestHandler } from '@sveltejs/kit';
+import { hasNotificationBeenSent, setNotificationSent } from '$lib/utils/notificationManager';
+
+let serverStatus = "Stopped"; // Default status
 
 export const POST: RequestHandler = async () => {
-  let serverStatus = "Initializing"; // Default status
-  let logs = "";
-
   return new Response(
     new ReadableStream({
       start(controller) {
         const process = spawn('docker', ['compose', 'up']);
 
         process.stdout.on('data', (data) => {
-          logs += data.toString();
-          controller.enqueue(data);
+          const logs = data.toString();
+          console.log("Logs Data:", logs); // Debug log
 
-          // Update server status based on log content
+          // Determine new server status based on log content
+          let newStatus = serverStatus;
           if (logs.includes("Network easyzomboidserver_default Creating")) {
-            serverStatus = "Initializing";
+            newStatus = "Initializing";
           } else if (logs.includes("Starting server install")) {
-            serverStatus = "Updating Game Files";
+            newStatus = "Updating Game Files";
           } else if (logs.includes("Update complete, launching Steamcmd")) {
-            serverStatus = "Zomboid Server Initializing";
+            newStatus = "Zomboid Server Initializing";
           } else if (logs.includes("SERVER STARTED")) {
-            serverStatus = "Online";
+            newStatus = "Online";
+            // Notify clients about the server start
+            if (!hasNotificationBeenSent()) {
+                // Here you can integrate with a notification service or set a flag
+                console.log("Server started, notifying clients...");
+                setNotificationSent(true); // Update flag to prevent duplicate notifications
+            }
           } else if (logs.includes("QuitCommand") || logs.includes("projectzomboid exited with code")) {
-            serverStatus = "Stopped";
+            newStatus = "Stopped";
+            setNotificationSent(false); // Reset notification flag on stop
           }
 
-          // Optionally send status updates to client
-          // Note: For simplicity, this example sends status as logs
-          controller.enqueue(`\nStatus: ${serverStatus}`);
+          // Update server status only if it has changed
+          if (newStatus !== serverStatus) {
+            serverStatus = newStatus;
+            controller.enqueue(`\nStatus: ${serverStatus}`);
+          }
         });
 
         process.stderr.on('data', (data) => {
-          controller.enqueue(data);
+          console.error(data.toString());
         });
 
         process.on('close', (code) => {
@@ -51,4 +62,11 @@ export const POST: RequestHandler = async () => {
     }
   );
 };
-    
+
+export const GET: RequestHandler = async () => {
+  return new Response(serverStatus, {
+    headers: {
+      'Content-Type': 'text/plain; charset=utf-8',
+    },
+  });
+};
