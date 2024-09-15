@@ -1,0 +1,240 @@
+ Container projectzomboid  Running
+Attaching to projectzomboid
+projectzomboid  | LOG  : General     , 1726384166975> 5,314,784> RCON: new connection Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166975> 5,314,784> RCON: new connection Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166975> 5,314,784> RCON: new connection Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166975> 5,314,784> RCON: new connection Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166975> 5,314,784> RCON: new connection Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166975> 5,314,784> RCON: new connection Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166975> 5,314,784> RCON: new connection Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166978> 5,314,788> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166979> 5,314,788> RCON: ID=0 Type=2 Body='save' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166978> 5,314,788> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166979> 5,314,788> RCON: ID=0 Type=2 Body='save' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166978> 5,314,788> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166979> 5,314,788> RCON: ID=0 Type=2 Body='save' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166978> 5,314,788> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166979> 5,314,788> RCON: ID=0 Type=2 Body='save' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166978> 5,314,788> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166979> 5,314,788> RCON: ID=0 Type=2 Body='save' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166978> 5,314,788> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166979> 5,314,788> RCON: ID=0 Type=2 Body='save' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166978> 5,314,788> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384166979> 5,314,788> RCON: ID=0 Type=2 Body='save' Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | World saved
+projectzomboid  | World saved
+projectzomboid  | World saved
+projectzomboid  | World saved
+projectzomboid  | World saved
+projectzomboid  | World saved
+projectzomboid  | World saved
+projectzomboid  | LOG  : General     , 1726384167030> 5,314,839> RCON: connection closed Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167030> 5,314,839> RCON: connection closed Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167030> 5,314,839> RCON: connection closed Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167030> 5,314,839> RCON: connection closed Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167030> 5,314,839> RCON: connection closed Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167030> 5,314,839> RCON: connection closed Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167030> 5,314,839> RCON: connection closed Socket[addr=/127.0.0.1,port=33158,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167033> 5,314,842> RCON: new connection Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167033> 5,314,842> RCON: new connection Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167033> 5,314,842> RCON: new connection Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167033> 5,314,842> RCON: new connection Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167033> 5,314,842> RCON: new connection Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167033> 5,314,842> RCON: new connection Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167033> 5,314,842> RCON: new connection Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,843> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,844> RCON: ID=0 Type=2 Body='quit' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,843> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,844> RCON: ID=0 Type=2 Body='quit' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,843> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,844> RCON: ID=0 Type=2 Body='quit' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,843> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,844> RCON: ID=0 Type=2 Body='quit' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,843> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,844> RCON: ID=0 Type=2 Body='quit' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,843> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,844> RCON: ID=0 Type=2 Body='quit' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,843> RCON: ID=0 Type=3 Body='123' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167034> 5,314,844> RCON: ID=0 Type=2 Body='quit' Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167159> 5,314,968> SaveAll took 47.154123 ms
+projectzomboid  | LOG  : General     , 1726384167160> 5,314,969> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167169> 5,314,978> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving finish
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving took 58.007261 ms
+projectzomboid  | DEBUG: Multiplayer , 1726384167170> 5,314,979> QuitCommand.Command                 > cmd="quit" user="admin" role="32" unknown connection"
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	java.base/java.lang.Thread.getStackTrace(Unknown Source)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:159)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:146)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.ServerMap.QueueQuit(ServerMap.java:91)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.serverCommands.QuitCommand.Command(QuitCommand.java:29)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.CommandBase.Execute(CommandBase.java:131)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.handleServerCommand(GameServer.java:1157)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.rcon(GameServer.java:1128)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer$ExecCommand.update(RCONServer.java:344)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.updateMain(RCONServer.java:386)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.update(RCONServer.java:412)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.core.profiling.AbstractPerformanceProfileProbe.invokeAndMeasure(AbstractPerformanceProfileProbe.java:71)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.main(GameServer.java:898)
+projectzomboid  | Quit
+projectzomboid  | LOG  : General     , 1726384167185> 5,314,994> RCON: connection closed Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167159> 5,314,968> SaveAll took 47.154123 ms
+projectzomboid  | LOG  : General     , 1726384167160> 5,314,969> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167169> 5,314,978> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving finish
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving took 58.007261 ms
+projectzomboid  | DEBUG: Multiplayer , 1726384167170> 5,314,979> QuitCommand.Command                 > cmd="quit" user="admin" role="32" unknown connection"
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	java.base/java.lang.Thread.getStackTrace(Unknown Source)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:159)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:146)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.ServerMap.QueueQuit(ServerMap.java:91)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.serverCommands.QuitCommand.Command(QuitCommand.java:29)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.CommandBase.Execute(CommandBase.java:131)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.handleServerCommand(GameServer.java:1157)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.rcon(GameServer.java:1128)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer$ExecCommand.update(RCONServer.java:344)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.updateMain(RCONServer.java:386)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.update(RCONServer.java:412)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.core.profiling.AbstractPerformanceProfileProbe.invokeAndMeasure(AbstractPerformanceProfileProbe.java:71)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.main(GameServer.java:898)
+projectzomboid  | Quit
+projectzomboid  | LOG  : General     , 1726384167185> 5,314,994> RCON: connection closed Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167159> 5,314,968> SaveAll took 47.154123 ms
+projectzomboid  | LOG  : General     , 1726384167160> 5,314,969> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167169> 5,314,978> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving finish
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving took 58.007261 ms
+projectzomboid  | DEBUG: Multiplayer , 1726384167170> 5,314,979> QuitCommand.Command                 > cmd="quit" user="admin" role="32" unknown connection"
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	java.base/java.lang.Thread.getStackTrace(Unknown Source)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:159)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:146)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.ServerMap.QueueQuit(ServerMap.java:91)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.serverCommands.QuitCommand.Command(QuitCommand.java:29)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.CommandBase.Execute(CommandBase.java:131)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.handleServerCommand(GameServer.java:1157)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.rcon(GameServer.java:1128)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer$ExecCommand.update(RCONServer.java:344)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.updateMain(RCONServer.java:386)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.update(RCONServer.java:412)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.core.profiling.AbstractPerformanceProfileProbe.invokeAndMeasure(AbstractPerformanceProfileProbe.java:71)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.main(GameServer.java:898)
+projectzomboid  | Quit
+projectzomboid  | LOG  : General     , 1726384167185> 5,314,994> RCON: connection closed Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167159> 5,314,968> SaveAll took 47.154123 ms
+projectzomboid  | LOG  : General     , 1726384167160> 5,314,969> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167169> 5,314,978> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving finish
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving took 58.007261 ms
+projectzomboid  | DEBUG: Multiplayer , 1726384167170> 5,314,979> QuitCommand.Command                 > cmd="quit" user="admin" role="32" unknown connection"
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	java.base/java.lang.Thread.getStackTrace(Unknown Source)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:159)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:146)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.ServerMap.QueueQuit(ServerMap.java:91)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.serverCommands.QuitCommand.Command(QuitCommand.java:29)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.CommandBase.Execute(CommandBase.java:131)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.handleServerCommand(GameServer.java:1157)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.rcon(GameServer.java:1128)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer$ExecCommand.update(RCONServer.java:344)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.updateMain(RCONServer.java:386)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.update(RCONServer.java:412)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.core.profiling.AbstractPerformanceProfileProbe.invokeAndMeasure(AbstractPerformanceProfileProbe.java:71)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.main(GameServer.java:898)
+projectzomboid  | Quit
+projectzomboid  | LOG  : General     , 1726384167185> 5,314,994> RCON: connection closed Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167159> 5,314,968> SaveAll took 47.154123 ms
+projectzomboid  | LOG  : General     , 1726384167160> 5,314,969> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167169> 5,314,978> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving finish
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving took 58.007261 ms
+projectzomboid  | DEBUG: Multiplayer , 1726384167170> 5,314,979> QuitCommand.Command                 > cmd="quit" user="admin" role="32" unknown connection"
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	java.base/java.lang.Thread.getStackTrace(Unknown Source)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:159)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:146)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.ServerMap.QueueQuit(ServerMap.java:91)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.serverCommands.QuitCommand.Command(QuitCommand.java:29)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.CommandBase.Execute(CommandBase.java:131)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.handleServerCommand(GameServer.java:1157)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.rcon(GameServer.java:1128)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer$ExecCommand.update(RCONServer.java:344)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.updateMain(RCONServer.java:386)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.update(RCONServer.java:412)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.core.profiling.AbstractPerformanceProfileProbe.invokeAndMeasure(AbstractPerformanceProfileProbe.java:71)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.main(GameServer.java:898)
+projectzomboid  | Quit
+projectzomboid  | LOG  : General     , 1726384167185> 5,314,994> RCON: connection closed Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167159> 5,314,968> SaveAll took 47.154123 ms
+projectzomboid  | LOG  : General     , 1726384167160> 5,314,969> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167169> 5,314,978> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving finish
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving took 58.007261 ms
+projectzomboid  | DEBUG: Multiplayer , 1726384167170> 5,314,979> QuitCommand.Command                 > cmd="quit" user="admin" role="32" unknown connection"
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	java.base/java.lang.Thread.getStackTrace(Unknown Source)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:159)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:146)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.ServerMap.QueueQuit(ServerMap.java:91)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.serverCommands.QuitCommand.Command(QuitCommand.java:29)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.CommandBase.Execute(CommandBase.java:131)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.handleServerCommand(GameServer.java:1157)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.rcon(GameServer.java:1128)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer$ExecCommand.update(RCONServer.java:344)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.updateMain(RCONServer.java:386)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.update(RCONServer.java:412)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.core.profiling.AbstractPerformanceProfileProbe.invokeAndMeasure(AbstractPerformanceProfileProbe.java:71)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.main(GameServer.java:898)
+projectzomboid  | Quit
+projectzomboid  | LOG  : General     , 1726384167185> 5,314,994> RCON: connection closed Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167159> 5,314,968> SaveAll took 47.154123 ms
+projectzomboid  | LOG  : General     , 1726384167160> 5,314,969> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167169> 5,314,978> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving finish
+projectzomboid  | LOG  : General     , 1726384167170> 5,314,979> Saving took 58.007261 ms
+projectzomboid  | DEBUG: Multiplayer , 1726384167170> 5,314,979> QuitCommand.Command                 > cmd="quit" user="admin" role="32" unknown connection"
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	java.base/java.lang.Thread.getStackTrace(Unknown Source)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:159)
+projectzomboid  | LOG  : Multiplayer , 1726384167170> 5,314,980> 	zombie.debug.DebugLogStream.printStackTrace(DebugLogStream.java:146)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.ServerMap.QueueQuit(ServerMap.java:91)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.serverCommands.QuitCommand.Command(QuitCommand.java:29)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.commands.CommandBase.Execute(CommandBase.java:131)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.handleServerCommand(GameServer.java:1157)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.rcon(GameServer.java:1128)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer$ExecCommand.update(RCONServer.java:344)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.updateMain(RCONServer.java:386)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.RCONServer.update(RCONServer.java:412)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.core.profiling.AbstractPerformanceProfileProbe.invokeAndMeasure(AbstractPerformanceProfileProbe.java:71)
+projectzomboid  | LOG  : Multiplayer , 1726384167171> 5,314,980> 	zombie.network.GameServer.main(GameServer.java:898)
+projectzomboid  | Quit
+projectzomboid  | LOG  : General     , 1726384167185> 5,314,994> RCON: connection closed Socket[addr=/127.0.0.1,port=33164,localport=27015]
+projectzomboid  | LOG  : General     , 1726384167235> 5,315,045> SaveAll took 23.204867 ms
+projectzomboid  | LOG  : General     , 1726384167236> 5,315,045> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,051> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving finish
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving took 30.239729 ms
+projectzomboid  | LOG  : General     , 1726384167235> 5,315,045> SaveAll took 23.204867 ms
+projectzomboid  | LOG  : General     , 1726384167236> 5,315,045> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,051> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving finish
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving took 30.239729 ms
+projectzomboid  | LOG  : General     , 1726384167235> 5,315,045> SaveAll took 23.204867 ms
+projectzomboid  | LOG  : General     , 1726384167236> 5,315,045> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,051> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving finish
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving took 30.239729 ms
+projectzomboid  | LOG  : General     , 1726384167235> 5,315,045> SaveAll took 23.204867 ms
+projectzomboid  | LOG  : General     , 1726384167236> 5,315,045> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,051> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving finish
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving took 30.239729 ms
+projectzomboid  | LOG  : General     , 1726384167235> 5,315,045> SaveAll took 23.204867 ms
+projectzomboid  | LOG  : General     , 1726384167236> 5,315,045> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,051> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving finish
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving took 30.239729 ms
+projectzomboid  | LOG  : General     , 1726384167235> 5,315,045> SaveAll took 23.204867 ms
+projectzomboid  | LOG  : General     , 1726384167236> 5,315,045> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,051> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving finish
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving took 30.239729 ms
+projectzomboid  | LOG  : General     , 1726384167235> 5,315,045> SaveAll took 23.204867 ms
+projectzomboid  | LOG  : General     , 1726384167236> 5,315,045> reanimate: saved 0 zombies
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,051> Saving GlobalModData
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving finish
+projectzomboid  | LOG  : General     , 1726384167242> 5,315,052> Saving took 30.239729 ms
