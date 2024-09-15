@@ -1,6 +1,7 @@
 <script>
     import { onMount } from 'svelte';
-    let serverStatus = "Stopped";
+    // let serverStatus = "Stopped";
+    import { serverStatus } from '$lib/stores/serverStore';
     let isLoading = false;
     let textarea;
     let hasNotifiedServerStarted = false; // Flag to track notification
@@ -75,7 +76,7 @@
         logs = "";
         isLoading = true;
         try {
-            const response = await fetch("/api/docker/stop", {
+            let response = await fetch("/api/docker/stop", {
                 method: "POST",
             });
             if (response.ok) {
@@ -117,30 +118,17 @@
 
 <div class="container">
     <h1>Server Dashboard</h1>
-    <p>Status: {serverStatus}</p>
-
-    {#if isLoading}
-        <p>Loading...</p>
-    {/if}
-
-    <textarea 
-        rows="32" 
-        bind:this={textarea} 
-        contenteditable="false" 
-        bind:textContent={logs}
-    ></textarea>
-
     <div class="controls">
-        {#if serverStatus === "Stopped"}
+        {#if $serverStatus ==="Stopped" }
             <button on:click={startServer}>Start Server</button>
         {/if}
 
-        {#if serverStatus !== "Stopped"}
+        {#if $serverStatus !== "Stopped"}
             <button on:click={stopServer}>Stop Server</button>
         {/if}
 
-        {#if serverStatus === "Online"}
+        <!-- {#if $serverStatus === "Online"}
             <button on:click={restartServer}>Restart Server</button>
-        {/if}
+        {/if} -->
     </div>
 </div>
